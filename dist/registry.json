@@ -252,6 +252,18 @@
     "tags": []
   },
   {
+    "productId": "kilo-auth",
+    "type": "plugins",
+    "displayName": "Kilo Gateway Auth",
+    "repoUrl": "https://github.com/JungHoonGhae/opencode-kilo-auth",
+    "tagline": "Kilo Gateway provider",
+    "description": "Adds Kilo Gateway provider support to OpenCode.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "micode",
     "type": "plugins",
     "displayName": "Micode",
@@ -319,12 +331,60 @@
     "homepageUrl": "https://ohmyopencodeslim.com"
   },
   {
+    "productId": "omniroute-auth",
+    "type": "plugins",
+    "displayName": "Omniroute Auth",
+    "repoUrl": "https://github.com/Alph4d0g/opencode-omniroute-auth",
+    "tagline": "Omniroute authentication provider",
+    "description": "Connect and automatically fetch models from your Omniroute instance",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
+    "productId": "open-plan-annotator",
+    "type": "plugins",
+    "displayName": "open-plan-annotator",
+    "repoUrl": "https://github.com/ndom91/open-plan-annotator",
+    "tagline": "Annotate LLM plans like a Google Doc!",
+    "description": "A fully local agentic coding plugin that intercepts plan mode and opens an annotation UI in your browser. Select text to strikethrough, replace, insert, or comment — then approve the plan or request changes",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "openai-codex-auth",
     "type": "plugins",
     "displayName": "OpenAI Codex Auth",
     "repoUrl": "https://github.com/numman-ali/opencode-openai-codex-auth",
     "tagline": "ChatGPT Plus/Pro OAuth",
     "description": "This plugin enables opencode to use OpenAI's Codex backend via ChatGPT Plus/Pro OAuth authentication.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
+    "productId": "opencode-agent-identity",
+    "type": "plugins",
+    "displayName": "Agent Identity",
+    "repoUrl": "https://github.com/gotgenes/opencode-agent-identity",
+    "tagline": "Agent self-identity and per-message attribution for multi-agent sessions",
+    "description": "Two plugins that improve agent identity awareness. AgentSelfIdentityPlugin injects a one-liner into the system prompt so the model knows which agent it's operating as. AgentAttributionToolPlugin exposes a tool for querying per-message agent attribution via the SDK, useful for agents that review multi-agent sessions.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
+    "productId": "opencode-agent-tmux",
+    "type": "plugins",
+    "displayName": "OpenCode Agent Tmux",
+    "repoUrl": "https://github.com/AnganSamadder/opencode-agent-tmux",
+    "tagline": "Real-time tmux panes for OpenCode agents with auto-launch, streaming, and cleanup.",
+    "description": "Smart tmux integration for OpenCode that auto-spawns panes to stream agent output, supports flexible layouts and multi-port setups, and cleans up when sessions finish.",
     "scope": [
       "global"
     ],
@@ -391,12 +451,36 @@
     "tags": []
   },
   {
+    "productId": "opencode-ntfy.sh",
+    "type": "plugins",
+    "displayName": "OpenCode ntfy.sh",
+    "repoUrl": "https://github.com/lannuttia/opencode-ntfy.sh",
+    "tagline": "Push notifications to keep you in the know, even when you're on the go.",
+    "description": "An OpenCode plugin that adds push notifications through ntfy.sh.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "opencode-plugin-openspec",
     "type": "plugins",
     "displayName": "OpenSpec",
     "repoUrl": "https://github.com/Octane0411/opencode-plugin-openspec",
     "tagline": "Add Architecture planning and specification agent for OpenSpec",
     "description": "An OpenCode plugin that integrates OpenSpec, providing a dedicated agent for planning and specifying software architecture.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
+    "productId": "opencode-plugin-otel",
+    "type": "plugins",
+    "displayName": "opencode-plugin-otel",
+    "repoUrl": "https://github.com/DEVtheOPS/opencode-plugin-otel",
+    "tagline": "OpenTelemetry telemetry exporter for opencode sessions, mirroring Claude Code monitoring signals",
+    "description": "Exports metrics, logs, and traces from opencode sessions via OTLP/gRPC to any OpenTelemetry-compatible backend (Datadog, Honeycomb, Grafana Cloud, etc.). Instruments session lifecycle, token usage, cost, tool durations, and git commits — mirroring the same signals as Claude Code's monitoring.",
     "scope": [
       "global"
     ],
@@ -445,6 +529,18 @@
     "repoUrl": "https://github.com/malhashemi/opencode-skills",
     "tagline": "Manage skills and capabilities",
     "description": "Plugin for managing and organising opencode skills and capabilities.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
+    "productId": "opencode-snip",
+    "type": "plugins",
+    "displayName": "opencode-snip",
+    "repoUrl": "https://github.com/VincentHardouin/opencode-snip",
+    "tagline": "OpenCode plugin that prefixes shell commands with snip to reduce LLM token consumption by 60-90%",
+    "description": "Automatically prefixes supported shell commands (git, go, cargo, npm, docker, etc.) with snip to filter output before it reaches your LLM context window.",
     "scope": [
       "global"
     ],
@@ -703,6 +799,18 @@
     "tags": []
   },
   {
+    "productId": "vibe-coding-slack-notifier",
+    "type": "plugins",
+    "displayName": "Vibe Coding Slack Notifier",
+    "repoUrl": "https://github.com/Wangmerlyn/vibe-coding-slack-notifier",
+    "tagline": "Slack DM alerts for OpenCode task completion",
+    "description": "OpenCode-compatible Slack notifier plugin and toolkit for Codex, OpenCode, Claude Code, and Gemini workflows.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "wakatime",
     "type": "plugins",
     "displayName": "WakaTime",
@@ -733,6 +841,18 @@
     "repoUrl": "https://github.com/boxpositron/with-context-mcp",
     "tagline": "Project-specific markdown notes",
     "description": "MCP server for managing project-specific markdown notes with templates, batch edits, and ignore patterns.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
+    "productId": "xquik",
+    "type": "plugins",
+    "displayName": "Xquik",
+    "repoUrl": "https://github.com/Xquik-dev/x-twitter-scraper",
+    "tagline": "X/Twitter data skill & MCP server",
+    "description": "X/Twitter data skill — MCP server, REST API, 20 extraction tools. Works with Claude Code, Cursor, Codex, and 40+ agents.",
     "scope": [
       "global"
     ],
@@ -823,12 +943,36 @@
     "tags": []
   },
   {
+    "productId": "golembot",
+    "type": "projects",
+    "displayName": "GolemBot",
+    "repoUrl": "https://github.com/0xranx/golembot",
+    "tagline": "Unified AI assistant framework for multiple Coding Agent CLIs",
+    "description": "Wraps Claude Code, Cursor, OpenCode, and Codex behind a single API with a Skill system, IM channel adapters (Feishu/Slack/Telegram/Discord), fleet mode, and an interactive onboard wizard.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "handy",
     "type": "projects",
     "displayName": "Handy",
     "repoUrl": "https://github.com/cjpais/Handy",
     "tagline": "Speech to Text",
     "description": "Easy Open Source Speech to Text.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
+    "productId": "hcom",
+    "type": "projects",
+    "displayName": "hcom",
+    "repoUrl": "https://github.com/aannoo/hcom",
+    "tagline": "Let AI agents message, watch, and spawn each other across terminals",
+    "description": "Claude Code, Gemini CLI, Codex CLI, and OpenCode agents in separate terminals can message each other, detect file edit collisions, read transcripts, view terminal screens, subscribe to activity, and spawn/fork/resume agents. First-class OpenCode support with native plugin. Includes TUI dashboard, cross-device relay, Python API, and multi-agent workflow scripts. pip installable, MIT licensed.",
     "scope": [
       "global"
     ],
@@ -1015,6 +1159,18 @@
     "tags": []
   },
   {
+    "productId": "opencode-telegram-bot",
+    "type": "projects",
+    "displayName": "Opencode Telegram Bot",
+    "repoUrl": "https://github.com/grinev/opencode-telegram-bot",
+    "tagline": "Telegram bot client for OpenCode CLI",
+    "description": "Run and monitor AI coding tasks from your phone while everything runs locally on your machine.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
     "productId": "opencode-web",
     "type": "projects",
     "displayName": "Opencode Web",
@@ -1156,6 +1312,30 @@
     "repoUrl": "https://github.com/postrednik/opencode-ayu-theme",
     "tagline": "Port of the popular Ayu Dark color scheme with golden yellow accent.",
     "description": "Port of the popular Ayu Dark color scheme with golden yellow accent.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
+    "productId": "lavi",
+    "type": "themes",
+    "displayName": "Lavi",
+    "repoUrl": "https://github.com/b0o/lavi/tree/main/contrib/opencode",
+    "tagline": "A soft and sweet colorscheme for Opencode and 15+ other apps",
+    "description": "A soft, sweet dark theme for Opencode with rich purple tones and carefully tuned syntax and diff colors. Part of the Lavi colorscheme family, which also provides matching themes for Neovim, Alacritty, Ghostty, Kitty, Wezterm, Zellij, and other tools, with Nix flake and home-manager support.",
+    "scope": [
+      "global"
+    ],
+    "tags": []
+  },
+  {
+    "productId": "moonlight",
+    "type": "themes",
+    "displayName": "Moonlight",
+    "repoUrl": "https://github.com/brunogabriel/opencode-moonlight-theme",
+    "tagline": "A moonlight color theme for OpenCode based on the popular moonlight-vscode-theme.",
+    "description": "A moonlight color theme for OpenCode based on the popular moonlight-vscode-theme by atomiks. Features a dark, cool-toned palette inspired by moonlight aesthetics.",
     "scope": [
       "global"
     ],

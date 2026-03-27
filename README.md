@@ -53,6 +53,15 @@
 <br>
 
 <details>
+  <summary><b>Agent Identity</b> <img src="https://badgen.net/github/stars/gotgenes/opencode-agent-identity" height="14"/> - <i>Agent self-identity and per-message attribution for multi-agent sessions</i></summary>
+  <blockquote>
+    Two plugins that improve agent identity awareness. AgentSelfIdentityPlugin injects a one-liner into the system prompt so the model knows which agent it's operating as. AgentAttributionToolPlugin exposes a tool for querying per-message agent attribution via the SDK, useful for agents that review multi-agent sessions.
+    <br><br>
+    <a href="https://github.com/gotgenes/opencode-agent-identity">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Agent Memory</b> <img src="https://badgen.net/github/stars/joshuadavidthomas/opencode-agent-memory" height="14"/> - <i>Letta-inspired memory</i></summary>
   <blockquote>
     Gives the agent persistent, self-editable memory blocks inspired by Letta agents.
@@ -206,6 +215,15 @@
 </details>
 
 <details>
+  <summary><b>Kilo Gateway Auth</b> <img src="https://badgen.net/github/stars/JungHoonGhae/opencode-kilo-auth" height="14"/> - <i>Kilo Gateway provider</i></summary>
+  <blockquote>
+    Adds Kilo Gateway provider support to OpenCode.
+    <br><br>
+    <a href="https://github.com/JungHoonGhae/opencode-kilo-auth">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Micode</b> <img src="https://badgen.net/github/stars/vtemian/micode" height="14"/> - <i>Brainstorm-Plan-Implement workflow</i></summary>
   <blockquote>
     Structured workflow with session continuity, subagent orchestration, git worktree isolation, and AST-aware tools.
@@ -251,11 +269,38 @@
 </details>
 
 <details>
+  <summary><b>Omniroute Auth</b> <img src="https://badgen.net/github/stars/Alph4d0g/opencode-omniroute-auth" height="14"/> - <i>Omniroute authentication provider</i></summary>
+  <blockquote>
+    Connect and automatically fetch models from your Omniroute instance
+    <br><br>
+    <a href="https://github.com/Alph4d0g/opencode-omniroute-auth">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>open-plan-annotator</b> <img src="https://badgen.net/github/stars/ndom91/open-plan-annotator" height="14"/> - <i>Annotate LLM plans like a Google Doc!</i></summary>
+  <blockquote>
+    A fully local agentic coding plugin that intercepts plan mode and opens an annotation UI in your browser. Select text to strikethrough, replace, insert, or comment — then approve the plan or request changes
+    <br><br>
+    <a href="https://github.com/ndom91/open-plan-annotator">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>OpenAI Codex Auth</b> <img src="https://badgen.net/github/stars/numman-ali/opencode-openai-codex-auth" height="14"/> - <i>ChatGPT Plus/Pro OAuth</i></summary>
   <blockquote>
     This plugin enables opencode to use OpenAI's Codex backend via ChatGPT Plus/Pro OAuth authentication.
     <br><br>
     <a href="https://github.com/numman-ali/opencode-openai-codex-auth">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>OpenCode Agent Tmux</b> <img src="https://badgen.net/github/stars/AnganSamadder/opencode-agent-tmux" height="14"/> - <i>Real-time tmux panes for OpenCode agents with auto-launch, streaming, and cleanup.</i></summary>
+  <blockquote>
+    Smart tmux integration for OpenCode that auto-spawns panes to stream agent output, supports flexible layouts and multi-port setups, and cleans up when sessions finish.
+    <br><br>
+    <a href="https://github.com/AnganSamadder/opencode-agent-tmux">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -292,6 +337,15 @@
     Native OS notifications for OpenCode - know when tasks complete.
     <br><br>
     <a href="https://github.com/kdcokenny/opencode-notify">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>OpenCode ntfy.sh</b> <img src="https://badgen.net/github/stars/lannuttia/opencode-ntfy.sh" height="14"/> - <i>Push notifications to keep you in the know, even when you're on the go.</i></summary>
+  <blockquote>
+    An OpenCode plugin that adds push notifications through ntfy.sh.
+    <br><br>
+    <a href="https://github.com/lannuttia/opencode-ntfy.sh">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -373,6 +427,24 @@
     Check all your AI subscription quotas in one command. Supports OpenAI (Plus/Pro/Codex, etc.), Zhipu AI, Google Antigravity, and more.
     <br><br>
     <a href="https://github.com/vbgate/opencode-mystatus">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>opencode-plugin-otel</b> <img src="https://badgen.net/github/stars/DEVtheOPS/opencode-plugin-otel" height="14"/> - <i>OpenTelemetry telemetry exporter for opencode sessions, mirroring Claude Code monitoring signals</i></summary>
+  <blockquote>
+    Exports metrics, logs, and traces from opencode sessions via OTLP/gRPC to any OpenTelemetry-compatible backend (Datadog, Honeycomb, Grafana Cloud, etc.). Instruments session lifecycle, token usage, cost, tool durations, and git commits — mirroring the same signals as Claude Code's monitoring.
+    <br><br>
+    <a href="https://github.com/DEVtheOPS/opencode-plugin-otel">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>opencode-snip</b> <img src="https://badgen.net/github/stars/VincentHardouin/opencode-snip" height="14"/> - <i>OpenCode plugin that prefixes shell commands with snip to reduce LLM token consumption by 60-90%</i></summary>
+  <blockquote>
+    Automatically prefixes supported shell commands (git, go, cargo, npm, docker, etc.) with snip to filter output before it reaches your LLM context window.
+    <br><br>
+    <a href="https://github.com/VincentHardouin/opencode-snip">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -539,6 +611,15 @@
 </details>
 
 <details>
+  <summary><b>Vibe Coding Slack Notifier</b> <img src="https://badgen.net/github/stars/Wangmerlyn/vibe-coding-slack-notifier" height="14"/> - <i>Slack DM alerts for OpenCode task completion</i></summary>
+  <blockquote>
+    OpenCode-compatible Slack notifier plugin and toolkit for Codex, OpenCode, Claude Code, and Gemini workflows.
+    <br><br>
+    <a href="https://github.com/Wangmerlyn/vibe-coding-slack-notifier">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>WakaTime</b> <img src="https://badgen.net/github/stars/angristan/opencode-wakatime" height="14"/> - <i>WakaTime integration</i></summary>
   <blockquote>
     WakaTime integration plugin for tracking coding activity in opencode sessions.
@@ -562,6 +643,15 @@
     MCP server for managing project-specific markdown notes with templates, batch edits, and ignore patterns.
     <br><br>
     <a href="https://github.com/boxpositron/with-context-mcp">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Xquik</b> <img src="https://badgen.net/github/stars/Xquik-dev/x-twitter-scraper" height="14"/> - <i>X/Twitter data skill & MCP server</i></summary>
+  <blockquote>
+    X/Twitter data skill — MCP server, REST API, 20 extraction tools. Works with Claude Code, Cursor, Codex, and 40+ agents.
+    <br><br>
+    <a href="https://github.com/Xquik-dev/x-twitter-scraper">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -592,6 +682,24 @@
     Port of the popular Ayu Dark color scheme with golden yellow accent.
     <br><br>
     <a href="https://github.com/postrednik/opencode-ayu-theme">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Lavi</b> <img src="https://badgen.net/github/stars/b0o/lavi" height="14"/> - <i>A soft and sweet colorscheme for Opencode and 15+ other apps</i></summary>
+  <blockquote>
+    A soft, sweet dark theme for Opencode with rich purple tones and carefully tuned syntax and diff colors. Part of the Lavi colorscheme family, which also provides matching themes for Neovim, Alacritty, Ghostty, Kitty, Wezterm, Zellij, and other tools, with Nix flake and home-manager support.
+    <br><br>
+    <a href="https://github.com/b0o/lavi/tree/main/contrib/opencode">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Moonlight</b> <img src="https://badgen.net/github/stars/brunogabriel/opencode-moonlight-theme" height="14"/> - <i>A moonlight color theme for OpenCode based on the popular moonlight-vscode-theme.</i></summary>
+  <blockquote>
+    A moonlight color theme for OpenCode based on the popular moonlight-vscode-theme by atomiks. Features a dark, cool-toned palette inspired by moonlight aesthetics.
+    <br><br>
+    <a href="https://github.com/brunogabriel/opencode-moonlight-theme">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -719,11 +827,29 @@
 </details>
 
 <details>
+  <summary><b>GolemBot</b> <img src="https://badgen.net/github/stars/0xranx/golembot" height="14"/> - <i>Unified AI assistant framework for multiple Coding Agent CLIs</i></summary>
+  <blockquote>
+    Wraps Claude Code, Cursor, OpenCode, and Codex behind a single API with a Skill system, IM channel adapters (Feishu/Slack/Telegram/Discord), fleet mode, and an interactive onboard wizard.
+    <br><br>
+    <a href="https://github.com/0xranx/golembot">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
   <summary><b>Handy</b> <img src="https://badgen.net/github/stars/cjpais/Handy" height="14"/> - <i>Speech to Text</i></summary>
   <blockquote>
     Easy Open Source Speech to Text.
     <br><br>
     <a href="https://github.com/cjpais/Handy">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>hcom</b> <img src="https://badgen.net/github/stars/aannoo/hcom" height="14"/> - <i>Let AI agents message, watch, and spawn each other across terminals</i></summary>
+  <blockquote>
+    Claude Code, Gemini CLI, Codex CLI, and OpenCode agents in separate terminals can message each other, detect file edit collisions, read transcripts, view terminal screens, subscribe to activity, and spawn/fork/resume agents. First-class OpenCode support with native plugin. Includes TUI dashboard, cross-device relay, Python API, and multi-agent workflow scripts. pip installable, MIT licensed.
+    <br><br>
+    <a href="https://github.com/aannoo/hcom">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
@@ -859,6 +985,15 @@
     Skills management system for organising and tracking opencode capabilities.
     <br><br>
     <a href="https://github.com/malhashemi/opencode-skills">🔗 <b>View Repository</b></a>
+  </blockquote>
+</details>
+
+<details>
+  <summary><b>Opencode Telegram Bot</b> <img src="https://badgen.net/github/stars/grinev/opencode-telegram-bot" height="14"/> - <i>Telegram bot client for OpenCode CLI</i></summary>
+  <blockquote>
+    Run and monitor AI coding tasks from your phone while everything runs locally on your machine.
+    <br><br>
+    <a href="https://github.com/grinev/opencode-telegram-bot">🔗 <b>View Repository</b></a>
   </blockquote>
 </details>
 
